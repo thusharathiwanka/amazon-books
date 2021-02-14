@@ -9,7 +9,7 @@ const Book = (props) => {
       </div>
       <h3>{title}</h3>
       <p>{author}</p>
-      <p>$ {price}.00</p>
+      <p className="price">$ {price}.00</p>
     </div>
   );
 };

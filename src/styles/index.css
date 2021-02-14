@@ -11,10 +11,12 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: "Work sans", sans-serif;
+  color: #232f3e;
 }
 
 a {
   text-decoration: none;
+  white-space: nowrap;
 }
 
 body {
@@ -29,10 +31,11 @@ nav {
   min-height: 10vh;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 nav img {
@@ -116,4 +119,18 @@ main h2 {
   height: 18rem;
   object-fit: cover;
   border-radius: 5px;
+}
+
+.book-container h3 {
+  font-weight: 600;
+  padding: 1rem 0 0.2rem 0;
+}
+
+.book-container p {
+  color: #929292;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #ff9900;
 }

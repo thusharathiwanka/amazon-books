@@ -25,7 +25,7 @@ const BookList = () => {
     },
     {
       id: 4,
-      title: "The Girl Who Drank the Moon",
+      title: "The Girl Who Drank the..",
       img: "./images/book4.jpg",
       author: "Kelly Barnhill",
       price: 8.0,
