@@ -114,6 +114,14 @@ main h2 {
   max-width: 300px;
   border-radius: 5px;
   padding: 1.5rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.book-container:hover,
+.book-container:focus {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 20px rgba(35, 47, 62, 0.1);
 }
 
 .book-container img {
