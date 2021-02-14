@@ -40,6 +40,7 @@ nav {
 
 nav img {
   width: 8rem;
+  padding-right: 2rem;
 }
 
 nav a {
@@ -49,6 +50,7 @@ nav a {
   border: 1px solid white;
   border-radius: 2px;
   font-weight: 400;
+  display: inline-block;
 }
 
 .nav-links a:nth-child(2) {
@@ -132,4 +134,85 @@ main h2 {
 
 .price {
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .book-container img {
+    height: auto;
+  }
+
+  html {
+    font-size: 90%;
+  }
+
+  .book-list-container {
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .book-list-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .book-container {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 858px) {
+  nav a {
+    margin: 2rem 0 0 2rem;
+  }
+  .nav-links {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 647px) {
+  nav {
+    justify-content: center;
+  }
+
+  nav img {
+    padding-right: 0;
+  }
+
+  nav input {
+    width: 22rem;
+    margin-left: 2rem;
+  }
+
+  nav button {
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  nav img {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .book-list-container {
+    grid-template-columns: 1fr;
+  }
+
+  .book-container {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav input {
+    width: 15rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  nav input {
+    width: 12rem;
+  }
 }
